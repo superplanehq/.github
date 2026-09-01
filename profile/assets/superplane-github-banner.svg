@@ -1,0 +1,85 @@
+<svg width="1200" height="500" viewBox="0 0 1200 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>SuperPlane: One-shot 30% of engineering tasks</title>
+  <desc>A dark SuperPlane banner showing a routine issue moving through Plan, Build, Check and Review to become a verified pull request.</desc>
+  <defs>
+    <linearGradient id="panel" x1="720" y1="64" x2="1110" y2="446" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1B1E1C"/>
+      <stop offset="1" stop-color="#111311"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1030 90) rotate(135) scale(390 310)">
+      <stop stop-color="#FFB21C" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#FFB21C" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#343936"/>
+    </pattern>
+    <filter id="orangeGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="500" rx="28" fill="#090A0A"/>
+  <rect width="1200" height="500" rx="28" fill="url(#grid)" opacity="0.42"/>
+  <rect width="1200" height="500" rx="28" fill="url(#glow)"/>
+  <rect x="1" y="1" width="1198" height="498" rx="27" stroke="#2B2F2C" stroke-width="2"/>
+
+  <g transform="translate(72 64) scale(1.45)">
+    <path d="M28 14.1083C27.5805 14.5361 27.1414 14.9445 26.6849 15.3326L16.5219 5.09275L21.9568 18.313C21.4134 18.5552 20.8572 18.7736 20.2893 18.9663L14.8966 5.84838V19.9794C14.6002 19.9927 14.3021 20 14.0025 20L13.7481 19.9983C13.5338 19.9955 13.3204 19.989 13.1077 19.9794V5.8019L7.69828 18.9602C7.13052 18.7669 6.57433 18.5482 6.03112 18.3054L11.4564 5.10873L1.31395 15.3279C0.857727 14.9397 0.419279 14.5309 0 14.1031L13.9975 0L28 14.1083Z" fill="#F4F0E8"/>
+  </g>
+  <text x="126" y="92" fill="#F4F0E8" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="35" font-weight="500" letter-spacing="-1.2">superplane</text>
+  <circle cx="313" cy="82" r="4" fill="#FFB21C"/>
+  <text x="328" y="88" fill="#A3A89F" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="1.5">OPEN SOURCE AI SOFTWARE FACTORY</text>
+
+  <text x="72" y="176" fill="#FFB21C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="600" letter-spacing="2.4">ROUTINE WORK, HANDLED.</text>
+  <text x="72" y="244" fill="#F4F0E8" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="52" font-weight="600" letter-spacing="-2.4">One-shot 30%</text>
+  <text x="407" y="244" fill="#F4F0E8" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="52" font-weight="600" letter-spacing="-2.4">of</text>
+  <text x="72" y="304" fill="#F4F0E8" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="52" font-weight="600" letter-spacing="-2.4">engineering tasks.</text>
+  <text x="72" y="355" fill="#A3A89F" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="20">Give agents clear work, consistent rules</text>
+  <text x="72" y="384" fill="#A3A89F" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="20">and a path to verified results.</text>
+
+  <rect x="72" y="427" width="178" height="38" rx="19" fill="#F4F0E8"/>
+  <text x="99" y="451" fill="#090A0A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="0.4">APACHE 2.0 CORE</text>
+  <text x="271" y="451" fill="#656B66" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="0.7">YOUR TOOLS · YOUR MODELS · YOUR FACTORY</text>
+
+  <rect x="718" y="57" width="414" height="386" rx="20" fill="url(#panel)" stroke="#343936" stroke-width="2"/>
+  <text x="748" y="91" fill="#656B66" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1.2">SOFTWARE FACTORY / RUN #6241</text>
+  <circle cx="1099" cy="86" r="5" fill="#FFB21C" filter="url(#orangeGlow)"/>
+
+  <rect x="748" y="112" width="354" height="62" rx="11" fill="#0E100F" stroke="#656B66"/>
+  <text x="766" y="136" fill="#656B66" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" letter-spacing="1">HIGH-CONFIDENCE ISSUE</text>
+  <text x="766" y="158" fill="#F4F0E8" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="500">#1842 · Fix flaky retry handling</text>
+  <rect x="987" y="126" width="94" height="27" rx="13.5" fill="#FFB21C" fill-opacity="0.1"/>
+  <text x="1005" y="144" fill="#FFB21C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="600">94% FIT</text>
+
+  <path d="M778 197H1072" stroke="#343936" stroke-width="2"/>
+  <path d="M778 197H1072" stroke="#FFB21C" stroke-width="2" stroke-dasharray="48 15"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" text-anchor="middle">
+    <circle cx="782" cy="197" r="12" fill="#151716" stroke="#FFB21C" stroke-width="2"/>
+    <text x="782" y="201" fill="#FFB21C">✓</text>
+    <text x="782" y="230" fill="#D1D3CE">PLAN</text>
+    <circle cx="878" cy="197" r="12" fill="#151716" stroke="#FFB21C" stroke-width="2"/>
+    <text x="878" y="201" fill="#FFB21C">✓</text>
+    <text x="878" y="230" fill="#D1D3CE">BUILD</text>
+    <circle cx="974" cy="197" r="12" fill="#151716" stroke="#FFB21C" stroke-width="2"/>
+    <text x="974" y="201" fill="#FFB21C">✓</text>
+    <text x="974" y="230" fill="#D1D3CE">CHECK</text>
+    <circle cx="1070" cy="197" r="12" fill="#FFB21C" filter="url(#orangeGlow)"/>
+    <text x="1070" y="201" fill="#090A0A">✓</text>
+    <text x="1070" y="230" fill="#FFB21C">REVIEW</text>
+  </g>
+
+  <rect x="748" y="260" width="354" height="84" rx="11" fill="#0E100F" stroke="#2B2F2C"/>
+  <text x="768" y="286" fill="#656B66" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" letter-spacing="1">VERIFICATION LOOP</text>
+  <text x="768" y="312" fill="#D1D3CE" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="14">CI failure captured → agent corrected → checks rerun</text>
+  <circle cx="779" cy="329" r="4" fill="#FFB21C"/>
+  <text x="792" y="334" fill="#A3A89F" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">ALL REQUIRED CHECKS PASSED</text>
+
+  <rect x="748" y="365" width="354" height="49" rx="11" fill="#FFB21C" fill-opacity="0.08" stroke="#FFB21C"/>
+  <circle cx="774" cy="389" r="10" fill="#FFB21C"/>
+  <text x="774" y="393" fill="#090A0A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" font-weight="700" text-anchor="middle">✓</text>
+  <text x="795" y="394" fill="#F4F0E8" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="600">VERIFIED PULL REQUEST READY</text>
+</svg>
