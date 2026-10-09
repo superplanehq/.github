@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://superplane.com">
-    <img src="./assets/superplane-github-banner.svg" alt="SuperPlane: One-shot 30% of engineering tasks" width="100%">
+    <img src="./assets/superplane.png" alt="SuperPlane: One-shot 30% of engineering tasks" width="100%">
   </a>
 </p>
 
@@ -28,7 +28,7 @@ review-ready pull requests without engineers managing every step.
 | --- | --- | --- |
 | Find codebase and backlog work that can be automated with high confidence. | Define allowed scope, required checks, review policy, approvals and escalation paths once. | Capture failures, give the agent actionable feedback, rerun checks and return work when it is ready. |
 
-![SuperPlane workflow board moving work from backlog through planning, implementation and verification](./assets/workflow-board-yellow.png)
+![SuperPlane workflow board moving work from backlog through planning, implementation and verification](./assets/background_image.png)
 
 ```text
 Focused issue → Plan → Build → Check ↺ Repair → Review → Verified PR
