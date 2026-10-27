@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://superplane.com">
-    <img src="./assets/superplane.png" alt="SuperPlane: One-shot 30% of engineering tasks" width="100%">
+    <img src="./assets/superplane.png" alt="SuperPlane: Engineering tasks in half the time" width="100%">
   </a>
 </p>
 
